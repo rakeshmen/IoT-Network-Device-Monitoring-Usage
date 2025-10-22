@@ -41,29 +41,31 @@ It highlights **end-to-end SQL skills**, from database design to query writing, 
 
 ## Repository Structure
 
+```
 IoT-Network-Device-Monitoring-Usage/
 ├── README.md
 ├── Database/
-│   ├── database schema and tables creation.sql
-│   ├── dim tables data insert.sql
-│   ├── dimdate data insert.sql
-│   ├── fact alert log data insert.sql
-│   ├── fact maintenance data insert.sql
-│   └── fact signal log data insert.sql
+│ ├── database schema and tables creation.sql
+│ ├── dim tables data insert.sql
+│ ├── dimdate data insert.sql
+│ ├── fact alert log data insert.sql
+│ ├── fact maintenance data insert.sql
+│ └── fact signal log data insert.sql
 ├── Data/
-│   └── IoT_Network_Monitoring_Data.xlsx
+│ └── IoT_Network_Monitoring_Data.xlsx
 ├── Queries/
-│   ├── total_usage.sql
-│   ├── top_devices.sql
-│   ├── usage_trends.sql
-│   ├── peak_usage.sql
-│   ├── device_type_comparison.sql
-│   ├── anomaly_detection.sql
-│   ├── usage_based_billing.sql
-│   ├── lifecycle_management.sql
-│   ├── maintenance_effectiveness.sql
-│   └── user_engagement.sql
+│ ├── total_usage.sql
+│ ├── top_devices.sql
+│ ├── usage_trends.sql
+│ ├── peak_usage.sql
+│ ├── device_type_comparison.sql
+│ ├── anomaly_detection.sql
+│ ├── usage_based_billing.sql
+│ ├── lifecycle_management.sql
+│ ├── maintenance_effectiveness.sql
+│ └── user_engagement.sql
 ├── Reports/
-│   └── Query_Outputs.pdf
+│ └── Query_Outputs.pdf
 └── Diagrams/
-    └── schema_diagram.png
+└── schema_diagram.png
+```
