@@ -6,13 +6,13 @@ USE IoT_Network_Monitoring;
 GO
 
 
--- 2️  CREATE SCHEMA
+-- 2 CREATE SCHEMA
 
 CREATE SCHEMA iot AUTHORIZATION dbo;
 GO
 
 
--- 3️  CREATE DIMENSION TABLES
+-- 3  CREATE DIMENSION TABLES
 
 
 -- Dim_Device
@@ -66,7 +66,7 @@ CREATE TABLE iot.Dim_Technician (
 GO
 
 
--- 4️  CREATE FACT TABLES
+-- 4  CREATE FACT TABLES
 
 
 -- Fact_Signal_Log
@@ -127,3 +127,4 @@ CREATE TABLE iot.Fact_Maintenance (
         REFERENCES iot.Dim_Technician(TechnicianID)
 );
 GO
+
